@@ -1,0 +1,17 @@
+# Assignment Overview
+In this assignment, I developed a key-value store application that operates over both TCP and UDP protocols. The primary objective was to build a client-server system where the server maintains a key-value store, allowing clients to perform PUT, GET, and DELETE operations. 
+
+The assignment focused on implementing single-threaded (for project 1 only) servers for each protocol (TCP or UDP), ensuring they could handle client requests and maintain consistent data storage. 
+
+Additionally, the project emphasized the importance of robust network communication, proper error handling, and comprehensive logging to track the interactions between clients and servers. By completing this assignment, I gained practical experience in network programming, socket communication, and the difference between TCP and UDP protocols in Java.
+
+# Technical Impressions
+One of the initial challenges I faced was implementing the client-server communication over both TCP and UDP protocols. Understanding the differences between the connection-oriented TCP and the connectionless UDP required careful consideration in handling socket programming and data transmission. After I searched the simple design of TCP and UDP protocols, I was able to extend them and designed my own style.
+
+Although the servers are single-threaded, I decided to use ConcurrentHashMap to prepare for potential future enhancements involving multithreading. This experience highlighted the importance of writing scalable and maintainable code.
+
+In addition, I haven't implemented docker file but I will do that in the project 2 since I am still trying to figure out this new technique. 
+
+# Use Case in Practice 
+An example of where this key-value store could be applied is in a caching system for a web application. By storing frequently accessed data in a key-value store, the application can reduce database load and improve response times. For instance, user session data or configuration settings could be stored in the key-value store, allowing for quick retrieval and updates without the overhead of querying a database.
+

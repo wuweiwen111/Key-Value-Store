@@ -1,0 +1,285 @@
+[2024-10-02 13:11:59.862] [Client] Sent: PUT apple red
+[2024-10-02 13:11:59.868] [Client] Received: OK
+[2024-10-02 13:11:59.868] [Client] Sent: PUT banana yellow
+[2024-10-02 13:11:59.869] [Client] Received: OK
+[2024-10-02 13:11:59.869] [Client] Sent: PUT grape purple
+[2024-10-02 13:11:59.870] [Client] Received: OK
+[2024-10-02 13:11:59.870] [Client] Sent: PUT lemon yellow
+[2024-10-02 13:11:59.870] [Client] Received: OK
+[2024-10-02 13:11:59.870] [Client] Sent: PUT cherry red
+[2024-10-02 13:11:59.871] [Client] Received: OK
+[2024-10-02 13:13:08.644] [Client] Sent: PUT key1 value1
+[2024-10-02 13:13:08.646] [Client] Received: OK
+[2024-10-02 13:13:18.636] [Client] Sent: PUT key2 value2
+[2024-10-02 13:13:18.637] [Client] Received: OK
+[2024-10-02 13:13:29.251] [Client] Sent: GET key2
+[2024-10-02 13:13:29.253] [Client] Received: OK value2
+[2024-10-02 13:13:53.818] [Client] Sent: GET key1
+[2024-10-02 13:13:53.820] [Client] Received: OK value1
+[2024-10-02 13:13:58.714] [Client] Sent: DELETE key1
+[2024-10-02 13:13:58.716] [Client] Received: OK
+[2024-10-02 13:14:03.296] [Client] Sent: DELETE key1
+[2024-10-02 13:14:03.299] [Client] Received: ERROR Key not found
+[2024-10-02 13:14:14.213] [Client] Sent: DELETE key2
+[2024-10-02 13:14:14.216] [Client] Received: OK
+[2024-10-02 13:41:03.232] [Client] Sent: "PUT apple red"
+[2024-10-02 13:41:03.236] [Client] Received: "OK"
+[2024-10-02 13:41:03.237] [Client] Sent: "PUT banana yellow"
+[2024-10-02 13:41:03.238] [Client] Received: "OK"
+[2024-10-02 13:41:03.238] [Client] Sent: "PUT grape purple"
+[2024-10-02 13:41:03.239] [Client] Received: "OK"
+[2024-10-02 13:41:03.239] [Client] Sent: "PUT lemon yellow"
+[2024-10-02 13:41:03.239] [Client] Received: "OK"
+[2024-10-02 13:41:03.239] [Client] Sent: "PUT cherry red"
+[2024-10-02 13:41:03.240] [Client] Received: "OK"
+[2024-10-02 13:41:42.075] [Client] Sent: "GET apple"
+[2024-10-02 13:41:42.078] [Client] Received: "OK red"
+[2024-10-02 13:41:53.048] [Client] Sent: "DELETE apple"
+[2024-10-02 13:41:53.049] [Client] Received: "OK"
+[2024-10-02 13:41:55.366] [Client] Sent: "GET apple"
+[2024-10-02 13:41:55.367] [Client] Received: "ERROR Key not found"
+[2024-10-03 21:56:31.085] [Client] Sent: PUT apple red
+[2024-10-03 21:56:31.091] [Client] Received: OK
+[2024-10-03 21:56:31.091] [Client] Sent: PUT banana yellow
+[2024-10-03 21:56:31.092] [Client] Received: OK
+[2024-10-03 21:56:31.092] [Client] Sent: PUT grape purple
+[2024-10-03 21:56:31.092] [Client] Received: OK
+[2024-10-03 21:56:31.092] [Client] Sent: PUT lemon yellow
+[2024-10-03 21:56:31.093] [Client] Received: OK
+[2024-10-03 21:56:31.093] [Client] Sent: PUT cherry red
+[2024-10-03 21:56:31.094] [Client] Received: OK
+[2024-10-03 21:57:08.637] [Client] Sent: PUT key1 value1
+[2024-10-03 21:57:08.639] [Client] Received: OK
+[2024-10-03 21:57:15.051] [Client] Sent: PUT key2 value2
+[2024-10-03 21:57:15.053] [Client] Received: OK
+[2024-10-03 21:57:21.532] [Client] Sent: PUT key3 value3
+[2024-10-03 21:57:21.535] [Client] Received: OK
+[2024-10-03 21:57:30.117] [Client] Sent: PUT key4 value4
+[2024-10-03 21:57:30.119] [Client] Received: OK
+[2024-10-03 21:57:36.069] [Client] Sent: PUT key5 value5
+[2024-10-03 21:57:36.071] [Client] Received: OK
+[2024-10-03 21:57:45.288] [Client] Sent: GET key5
+[2024-10-03 21:57:45.290] [Client] Received: OK value5
+[2024-10-03 21:57:54.745] [Client] Sent: GET key5
+[2024-10-03 21:57:54.746] [Client] Received: OK value5
+[2024-10-03 21:58:05.560] [Client] Sent: DELETE key5
+[2024-10-03 21:58:05.561] [Client] Received: OK
+[2024-10-03 21:58:10.441] [Client] Sent: GET key5
+[2024-10-03 21:58:10.443] [Client] Received: ERROR Key not found
+[2024-10-03 22:01:20.682] [Client] Sent: PUT apple red
+[2024-10-03 22:01:20.687] [Client] Received: ERROR Key already exists
+[2024-10-03 22:01:20.688] [Client] Sent: PUT banana yellow
+[2024-10-03 22:01:20.688] [Client] Received: ERROR Key already exists
+[2024-10-03 22:01:20.688] [Client] Sent: PUT grape purple
+[2024-10-03 22:01:20.689] [Client] Received: ERROR Key already exists
+[2024-10-03 22:01:20.689] [Client] Sent: PUT lemon yellow
+[2024-10-03 22:01:20.689] [Client] Received: ERROR Key already exists
+[2024-10-03 22:01:20.690] [Client] Sent: PUT cherry red
+[2024-10-03 22:01:20.690] [Client] Received: ERROR Key already exists
+[2024-10-03 22:01:33.060] [Client] Sent: PUT k1 v1
+[2024-10-03 22:01:33.062] [Client] Received: OK
+[2024-10-03 22:01:37.172] [Client] Sent: PUT k2 v2
+[2024-10-03 22:01:37.173] [Client] Received: OK
+[2024-10-03 22:01:41.980] [Client] Sent: PUT k3 v3
+[2024-10-03 22:01:41.981] [Client] Received: OK
+[2024-10-03 22:01:57.112] [Client] Sent: PUT k4 v4
+[2024-10-03 22:01:57.114] [Client] Received: OK
+[2024-10-03 22:02:01.948] [Client] Sent: PUT k5 v5
+[2024-10-03 22:02:01.950] [Client] Received: OK
+[2024-10-03 22:02:13.387] [Client] Sent: GET k1
+[2024-10-03 22:02:13.389] [Client] Received: OK v1
+[2024-10-03 22:02:18.243] [Client] Sent: GET apple
+[2024-10-03 22:02:18.245] [Client] Received: OK red
+[2024-10-03 22:02:22.843] [Client] Sent: GET grape
+[2024-10-03 22:02:22.845] [Client] Received: OK purple
+[2024-10-03 22:02:28.692] [Client] Sent: GET cherry
+[2024-10-03 22:02:28.694] [Client] Received: OK red
+[2024-10-03 22:02:37.769] [Client] Sent: GET k5
+[2024-10-03 22:02:37.771] [Client] Received: OK v5
+[2024-10-03 22:02:42.658] [Client] Sent: DELETE k1
+[2024-10-03 22:02:42.660] [Client] Received: OK
+[2024-10-03 22:03:47.629] [Client] Sent: DELETE k2
+[2024-10-03 22:03:47.631] [Client] Received: OK
+[2024-10-03 22:03:50.786] [Client] Sent: DELETE k3
+[2024-10-03 22:03:50.788] [Client] Received: OK
+[2024-10-03 22:03:54.179] [Client] Sent: DELETE k4
+[2024-10-03 22:03:54.181] [Client] Received: OK
+[2024-10-03 22:03:58.933] [Client] Sent: DELETE k5
+[2024-10-03 22:03:58.935] [Client] Received: OK
+[2024-10-03 22:18:27.904] [Client] Sent: "PUT apple red"
+[2024-10-03 22:18:27.909] [Client] Received: "OK"
+[2024-10-03 22:18:27.909] [Client] Sent: "PUT banana yellow"
+[2024-10-03 22:18:27.910] [Client] Received: "OK"
+[2024-10-03 22:18:27.910] [Client] Sent: "PUT grape purple"
+[2024-10-03 22:18:27.911] [Client] Received: "OK"
+[2024-10-03 22:18:27.911] [Client] Sent: "PUT lemon yellow"
+[2024-10-03 22:18:27.911] [Client] Received: "OK"
+[2024-10-03 22:18:27.911] [Client] Sent: "PUT cherry red"
+[2024-10-03 22:18:27.912] [Client] Received: "OK"
+[2024-10-03 22:19:00.342] [Client] Sent: "GET neu"
+[2024-10-03 22:19:00.344] [Client] Received: "ERROR Key not found"
+[2024-10-03 22:19:07.315] [Client] Sent: "PUT neu sv"
+[2024-10-03 22:19:07.317] [Client] Received: "OK"
+[2024-10-03 22:19:11.434] [Client] Sent: "PUT neu sea"
+[2024-10-03 22:19:11.436] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:21.317] [Client] Sent: "PUT neu bosexit"
+[2024-10-03 22:19:21.319] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:30.091] [Client] Sent: "PUT apple red"
+[2024-10-03 22:19:30.095] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:30.095] [Client] Sent: "PUT banana yellow"
+[2024-10-03 22:19:30.096] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:30.096] [Client] Sent: "PUT grape purple"
+[2024-10-03 22:19:30.097] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:30.097] [Client] Sent: "PUT lemon yellow"
+[2024-10-03 22:19:30.097] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:30.098] [Client] Sent: "PUT cherry red"
+[2024-10-03 22:19:30.098] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:34.420] [Client] Sent: "PUT neu sv"
+[2024-10-03 22:19:34.422] [Client] Received: "ERROR Key already exists"
+[2024-10-03 22:19:46.736] [Client] Sent: "PUT cmu pa"
+[2024-10-03 22:19:46.738] [Client] Received: "OK"
+[2024-10-03 22:19:54.794] [Client] Sent: "PUT nyu nyc"
+[2024-10-03 22:19:54.796] [Client] Received: "OK"
+[2024-10-03 22:19:59.706] [Client] Sent: "PUT bu bos"
+[2024-10-03 22:19:59.707] [Client] Received: "OK"
+[2024-10-03 22:20:12.605] [Client] Sent: "PUT yale nh"
+[2024-10-03 22:20:12.607] [Client] Received: "OK"
+[2024-10-03 22:20:16.439] [Client] Sent: "GET nyu"
+[2024-10-03 22:20:16.442] [Client] Received: "OK nyc"
+[2024-10-03 22:20:20.474] [Client] Sent: "GET bu"
+[2024-10-03 22:20:20.476] [Client] Received: "OK bos"
+[2024-10-03 22:20:24.080] [Client] Sent: "GET lemon"
+[2024-10-03 22:20:24.081] [Client] Received: "OK yellow"
+[2024-10-03 22:20:28.530] [Client] Sent: "GET tale"
+[2024-10-03 22:20:28.531] [Client] Received: "ERROR Key not found"
+[2024-10-03 22:20:32.894] [Client] Sent: "GET neu"
+[2024-10-03 22:20:32.896] [Client] Received: "OK sv"
+[2024-10-03 22:20:43.759] [Client] Sent: "DELETE bu"
+[2024-10-03 22:20:43.760] [Client] Received: "OK"
+[2024-10-03 22:20:46.622] [Client] Sent: "DELETE apple"
+[2024-10-03 22:20:46.623] [Client] Received: "OK"
+[2024-10-03 22:20:50.538] [Client] Sent: "DELETE cherry"
+[2024-10-03 22:20:50.540] [Client] Received: "OK"
+[2024-10-03 22:20:54.118] [Client] Sent: "DELETE cmu"
+[2024-10-03 22:20:54.119] [Client] Received: "OK"
+[2024-10-03 22:21:00.648] [Client] Sent: "DELETE yale"
+[2024-10-03 22:21:00.649] [Client] Received: "OK"
+[2024-10-03 22:23:06.012] [Client] Sent: PUT apple red
+[2024-10-03 22:23:06.017] [Client] Received: ERROR Key already exists
+[2024-10-03 22:23:06.017] [Client] Sent: PUT banana yellow
+[2024-10-03 22:23:06.018] [Client] Received: ERROR Key already exists
+[2024-10-03 22:23:06.018] [Client] Sent: PUT grape purple
+[2024-10-03 22:23:06.018] [Client] Received: ERROR Key already exists
+[2024-10-03 22:23:06.018] [Client] Sent: PUT lemon yellow
+[2024-10-03 22:23:06.019] [Client] Received: ERROR Key already exists
+[2024-10-03 22:23:06.019] [Client] Sent: PUT cherry red
+[2024-10-03 22:23:06.020] [Client] Received: ERROR Key already exists
+[2024-10-03 22:39:10.964] [Client] Sent: PUT apple red
+[2024-10-03 22:39:10.970] [Client] Received: OK
+[2024-10-03 22:39:10.970] [Client] Sent: PUT banana yellow
+[2024-10-03 22:39:10.971] [Client] Received: OK
+[2024-10-03 22:39:10.971] [Client] Sent: PUT grape purple
+[2024-10-03 22:39:10.972] [Client] Received: OK
+[2024-10-03 22:39:10.972] [Client] Sent: PUT lemon yellow
+[2024-10-03 22:39:10.972] [Client] Received: OK
+[2024-10-03 22:39:10.972] [Client] Sent: PUT cherry red
+[2024-10-03 22:39:10.973] [Client] Received: OK
+[2024-10-03 22:52:24.538] [Client] ERROR: Client error: Connection refused
+[2024-10-03 22:52:51.050] [Client] Sent: PUT apple red
+[2024-10-03 22:52:51.056] [Client] Received: OK
+[2024-10-03 22:52:51.056] [Client] Sent: PUT banana yellow
+[2024-10-03 22:52:51.057] [Client] Received: OK
+[2024-10-03 22:52:51.057] [Client] Sent: PUT grape purple
+[2024-10-03 22:52:51.057] [Client] Received: OK
+[2024-10-03 22:52:51.057] [Client] Sent: PUT lemon yellow
+[2024-10-03 22:52:51.058] [Client] Received: OK
+[2024-10-03 22:52:51.058] [Client] Sent: PUT cherry red
+[2024-10-03 22:52:51.059] [Client] Received: OK
+[2024-10-03 23:03:15.160] [Client] Sent: PUT apple red
+[2024-10-03 23:03:15.166] [Client] Received: OK
+[2024-10-03 23:03:15.166] [Client] Sent: PUT banana yellow
+[2024-10-03 23:03:15.167] [Client] Received: OK
+[2024-10-03 23:03:15.167] [Client] Sent: PUT grape purple
+[2024-10-03 23:03:15.167] [Client] Received: OK
+[2024-10-03 23:03:15.167] [Client] Sent: PUT lemon yellow
+[2024-10-03 23:03:15.168] [Client] Received: OK
+[2024-10-03 23:03:15.168] [Client] Sent: PUT cherry red
+[2024-10-03 23:03:15.168] [Client] Received: OK
+[2024-10-03 23:11:47.497] [Client] Sent: PUT apple red
+[2024-10-03 23:11:47.503] [Client] Received: OK
+[2024-10-03 23:11:47.503] [Client] Sent: PUT banana yellow
+[2024-10-03 23:11:47.504] [Client] Received: OK
+[2024-10-03 23:11:47.504] [Client] Sent: PUT grape purple
+[2024-10-03 23:11:47.504] [Client] Received: OK
+[2024-10-03 23:11:47.505] [Client] Sent: PUT lemon yellow
+[2024-10-03 23:11:47.505] [Client] Received: OK
+[2024-10-03 23:11:47.505] [Client] Sent: PUT cherry red
+[2024-10-03 23:11:47.506] [Client] Received: OK
+[2024-10-03 23:11:49.543] [Client] Sent: SHOW
+[2024-10-03 23:11:49.544] [Client] Received: banana : yellow
+apple : red
+cherry : red
+lemon : yellow
+grape : purple
+
+[2024-10-03 23:16:55.448] [Client] Sent: GET apple
+[2024-10-03 23:16:55.453] [Client] Received: OK red
+[2024-10-03 23:20:14.490] [Client] Sent: PUT apple red
+[2024-10-03 23:20:14.496] [Client] Received: OK
+[2024-10-03 23:20:14.496] [Client] Sent: PUT banana yellow
+[2024-10-03 23:20:14.496] [Client] Received: OK
+[2024-10-03 23:20:14.497] [Client] Sent: PUT grape purple
+[2024-10-03 23:20:14.497] [Client] Received: OK
+[2024-10-03 23:20:14.497] [Client] Sent: PUT lemon yellow
+[2024-10-03 23:20:14.498] [Client] Received: OK
+[2024-10-03 23:20:14.498] [Client] Sent: PUT cherry red
+[2024-10-03 23:20:14.498] [Client] Received: OK
+[2024-10-03 23:20:43.354] [Client] Sent: PUT neu sv
+[2024-10-03 23:20:43.358] [Client] Received: OK
+[2024-10-03 23:20:48.736] [Client] Sent: PUT cmu pa
+[2024-10-03 23:20:48.738] [Client] Received: OK
+[2024-10-03 23:20:52.773] [Client] Sent: PUT nyu nyc
+[2024-10-03 23:20:52.775] [Client] Received: OK
+[2024-10-03 23:21:01.289] [Client] Sent: PUT ucsd sd
+[2024-10-03 23:21:01.292] [Client] Received: OK
+[2024-10-03 23:21:06.640] [Client] Sent: PUT ucla la
+[2024-10-03 23:21:06.642] [Client] Received: OK
+[2024-10-03 23:21:10.844] [Client] Sent: GET usla
+[2024-10-03 23:21:10.847] [Client] Received: ERROR Key not found
+[2024-10-03 23:21:14.382] [Client] Sent: GET cherry
+[2024-10-03 23:21:14.385] [Client] Received: OK red
+[2024-10-03 23:21:17.115] [Client] Sent: GET neu
+[2024-10-03 23:21:17.116] [Client] Received: OK sv
+[2024-10-03 23:21:22.569] [Client] Sent: GET grape
+[2024-10-03 23:21:22.571] [Client] Received: OK purple
+[2024-10-03 23:21:26.181] [Client] Sent: GET nyu
+[2024-10-03 23:21:26.183] [Client] Received: OK nyc
+[2024-10-03 23:21:35.851] [Client] Sent: SHOW
+[2024-10-03 23:21:35.853] [Client] Received: banana : yellow
+apple : red
+cherry : red
+lemon : yellow
+ucla : la
+ucsd : sd
+cmu : pa
+grape : purple
+nyu : nyc
+neu : sv
+
+[2024-10-03 23:21:45.800] [Client] Sent: DELETE nyu
+[2024-10-03 23:21:45.801] [Client] Received: OK
+[2024-10-03 23:21:50.154] [Client] Sent: DELETE cmu
+[2024-10-03 23:21:50.156] [Client] Received: OK
+[2024-10-03 23:21:58.082] [Client] Sent: DELETE neu
+[2024-10-03 23:21:58.084] [Client] Received: OK
+[2024-10-03 23:22:01.584] [Client] Sent: DELETE apple
+[2024-10-03 23:22:01.585] [Client] Received: OK
+[2024-10-03 23:22:05.803] [Client] Sent: DELETE lemon
+[2024-10-03 23:22:05.805] [Client] Received: OK
+[2024-10-03 23:22:07.591] [Client] Sent: SHOW
+[2024-10-03 23:22:07.592] [Client] Received: banana : yellow
+cherry : red
+ucla : la
+ucsd : sd
+grape : purple
+
